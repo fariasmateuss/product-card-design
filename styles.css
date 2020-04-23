@@ -191,7 +191,10 @@ body{
   text-transform: capitalize;
 }
 
-.shoeName, .description, .color-container, .size-container{
+.shoeName,
+.description, 
+.color-container, 
+.size-container{
   border-bottom: 1px solid #dadada;
 }
 
@@ -273,7 +276,7 @@ body{
   align-items: center;
 }
 
-.size{
+.size {
   width: 40px;
   height: 40px;
   border-radius: 6px;
@@ -312,9 +315,23 @@ body{
   line-height: 1;
 }
 
-.price i{
-  font-size: 1.4rem;
-  margin-right: 1px;
+.priceBtn {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+  line-height: 25px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: .3s;
+  bottom: 1.5rem;
+}
+
+.real {
+  font-size: small;
 }
 
 .buy{
