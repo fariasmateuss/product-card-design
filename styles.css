@@ -320,8 +320,8 @@ body{
   width: 25px;
   height: 25px;
   border-radius: 50px;
-  background-color: #eee;
-  color: #333;
+  background-color: var(--primary);
+  color: #eee;
   text-align: center;
   line-height: 25px;
   font-size: 1.1rem;

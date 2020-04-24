@@ -3,7 +3,7 @@ const colors = document.querySelectorAll('.color');
 const shoes = document.querySelectorAll('.shoe');
 const gradients = document.querySelectorAll('.gradient');
 const shoeBg = document.querySelector('.shoeBackground');
-const singer = document.querySelector('.priceBtn');
+const calculate = document.querySelector('.priceBtn');
 
 let prevColor = "blue";
 let animationEnd = true;
@@ -63,6 +63,6 @@ changeHeight();
 window.addEventListener('resize', changeHeight);
 
 document.querySelector('.buy').addEventListener('click', () => {
-  const number = parseInt(singer.textContent) + 1;
-  singer.textContent = number;
+  const number = parseInt(calculate.textContent) + 1;
+  calculate.textContent = number;
 });
